@@ -1,0 +1,78 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+/* estilo */
+#cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+#logo{
+    color: rgb(77, 77, 77);
+    padding: 10px;
+    font-size: 1.3em;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+a:hover{
+    background-color: white;
+    color: #f7b600;
+}
+.branco{
+    color: white;
+}
+
+
+/* AREA PRINCIPAL */
+#principal{
+    background: white;
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+}
+#postagem , #menu-lateral{
+    background-color: darksalmon;
+}
+#postagem{
+    width: 660px;
+    float: left
+}
+#menu-lateral{
+    width: 240px;
+    float: right;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15;
+    background-color: #CCC;
+}
+
+.postagens{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+h2{
+    color: #f7b600;
+}
+
+.data{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
